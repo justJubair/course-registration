@@ -8,6 +8,7 @@ const Layout = () => {
   const [selectedCourse, setSelectedCourse] = useState([]);
   const [remainingCredit, setRemainingCredit] = useState(20);
   const [totalCreditHour, setTotalCreditHour] = useState(0);
+  const [price, setPrice] = useState(0);
   const handleSelect = (course) => {
     const isExist = selectedCourse.find((item) => course.id === item.id);
     if (isExist) {
@@ -16,6 +17,8 @@ const Layout = () => {
         icon: "error",
       });
     }
+    const totalPrice = price + course.price
+    setPrice(totalPrice) 
     const totalHour = totalCreditHour + course.credit_time;
     if(totalHour> 20){
       return swal({
@@ -39,7 +42,7 @@ const Layout = () => {
       {/* overall layout */}
       <Header />
       <div className="flex flex-col-reverse p-4 justify-between py-10 gap-8 md:flex-row">
-        <div className="">
+        <div>
           <Cards handleSelect={handleSelect} />
         </div>
         <div className="w-full md:w-1/2">
@@ -47,6 +50,7 @@ const Layout = () => {
             remainingCredit={remainingCredit}
             selectedCourse={selectedCourse}
             totalCreditHour={totalCreditHour}
+            price={price}
           />
         </div>
       </div>
