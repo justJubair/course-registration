@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/tDrQ39m/Rectangle-2.png",
+      "course_name": "Introduction to Python",
+      "credit_time": 5,
+      "details": "Learn the fundamentals of Python programming language.",
+      "price": 99.99
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/6FTMfsy/Rectangle-2-1.png",
+      "course_name": "Web Development with HTML/CSS",
+      "credit_time": 3,
+      "details": "Master front-end web development with HTML and CSS.",
+      "price": 129.99
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/Mk2DRXD/Rectangle-2-6.png",
+      "course_name": "JavaScript for Beginners",
+      "credit_time": 4,
+      "details": "Get started with JavaScript and build interactive websites.",
+      "price": 109.99
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/tDQmMNZ/Rectangle-3-1.png",
+      "course_name": "Java Programming",
+      "credit_time": 6,
+      "details": "Learn object-oriented programming with Java.",
+      "price": 149.99
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/thWYGNj/Rectangle-3.png",
+      "course_name": "Data Science with Python",
+      "credit_time": 8,
+      "details": "Explore data analysis and machine learning using Python.",
+      "price": 169.99
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/Lzgm76S/Rectangle-2-5.png",
+      "course_name": "Full-Stack Web Development",
+      "credit_time": 7,
+      "details": "Become proficient in both front-end and back-end web development.",
+      "price": 199.99
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co/bzYt3zB/Rectangle-2-4.png",
+      "course_name": "C++ Programming",
+      "credit_time": 2,
+      "details": "Learn the C++ programming language for software development.",
+      "price": 139.99
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co/gZ4BZyc/Rectangle-2-3.png",
+      "course_name": "Android App Development",
+      "credit_time": 1,
+      "details": "Create mobile apps for Android devices.",
+      "price": 159.99
+    },
+    {
+      "id": 9,
+      "img": "https://i.ibb.co/Y8QGG88/Rectangle-2-2.png",
+      "course_name": "Introduction to Machine Learning",
+      "credit_time": 5,
+      "details": "Gain an understanding of the basics of machine learning algorithms.",
+      "price": 179.99
+    }
+  ]
+  
