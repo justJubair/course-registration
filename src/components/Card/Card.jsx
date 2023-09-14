@@ -10,7 +10,7 @@ const Card = ({ course, handleSelect }) => {
         <figure className="p-4">
           <img src={img} alt={course_name} />
         </figure>
-        <div className="card-body h-60">
+        <div className="card-body lg:h-60">
           <h2 className="card-title">{course_name}</h2>
           <p>{details}</p>
           {/* price and credit hour section */}
