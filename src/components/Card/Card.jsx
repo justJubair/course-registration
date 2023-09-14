@@ -37,7 +37,7 @@ const Card = ({ course, handleSelect }) => {
 
 Card.propTypes = {
     handleSelect:PropTypes.func.isRequired,
-    course: PropTypes.object.isRequired
+    course: PropTypes.object.isRequired,
 };
 
 export default Card;
