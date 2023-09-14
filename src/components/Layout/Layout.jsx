@@ -1,10 +1,12 @@
 import Cards from "../Cards/Cards";
+import Header from "../Header/Header";
 
 const Layout = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
         {/* overall layout */}
-      <div className="flex justify-between">
+        <Header/>
+      <div className="flex justify-between mt-16">
         <div className="">
           <Cards/>
         </div>
