@@ -7,7 +7,7 @@ const Card = ({ course, handleSelect }) => {
   return (
     <div>
       <div className="card card-compact bg-base-100 shadow-xl">
-        <figure>
+        <figure className="p-4">
           <img src={img} alt={course_name} />
         </figure>
         <div className="card-body h-60">

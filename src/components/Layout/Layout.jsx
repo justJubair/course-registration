@@ -12,7 +12,7 @@ const Layout = () => {
     <div className="max-w-screen-xl mx-auto">
         {/* overall layout */}
         <Header/>
-      <div className="flex justify-between mt-16">
+      <div className="flex justify-between my-10 gap-8">
         <div className="">
           <Cards handleSelect={handleSelect}/>
         </div>
