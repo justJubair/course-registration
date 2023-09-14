@@ -5,7 +5,10 @@ const Cart = ({selectedCourse}) => {
     console.log(selectedCourse)
   return (
     <div>
-     
+     {
+        selectedCourse.map(course=><li className='list-decimal' key={course.id}>{course.course_name}
+        </li>)
+     }
     </div>
   )
 }
