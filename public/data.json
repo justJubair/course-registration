@@ -2,7 +2,7 @@
     {
       "id": 1,
       "img": "https://i.ibb.co/tDrQ39m/Rectangle-2.png",
-      "course_name": "Introduction to Python",
+      "course_name": "Introduction to Python: Learn AI",
       "credit_time": 5,
       "details": "Learn the fundamentals of Python programming language.",
       "price": 99.99
@@ -26,7 +26,7 @@
     {
       "id": 4,
       "img": "https://i.ibb.co/tDQmMNZ/Rectangle-3-1.png",
-      "course_name": "Java Programming",
+      "course_name": "Java Programming: App building",
       "credit_time": 6,
       "details": "Learn object-oriented programming with Java.",
       "price": 149.99
@@ -50,7 +50,7 @@
     {
       "id": 7,
       "img": "https://i.ibb.co/bzYt3zB/Rectangle-2-4.png",
-      "course_name": "C++ Programming",
+      "course_name": "C++ Programming, Problem solving",
       "credit_time": 2,
       "details": "Learn the C++ programming language for software development.",
       "price": 139.99
